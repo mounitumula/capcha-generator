@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capcha Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2 id="title" class="title">Capcha Generator</h2>
+        <div class="flex">
+            <p id="capcha" class="capche"></p>
+            <button onClick="generateCapcha()" style="background-color: white; font-size: 12px; width:60px; text-align: center; height:30px; margin: auto; border: none; border-radius: 12px;">Refresh</button>
+        </div>
+        <div class="user-capche-container">
+            <input type="text" class="user_code" id="userCode" placeholder="Enter Capcha">
+        </div>
+        <button class="btn" id="btn" onclick="verfiyCapcha()">Verify</button>
+        <div class="alert" id="alert"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

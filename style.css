@@ -1,0 +1,92 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.container{
+    width: 300px;
+    height: 230px;
+    margin: 50px auto;
+    padding: 12px auto;
+    background-color: rgb(119, 184, 231);
+    border-radius: 12px;
+}
+
+.title{
+    margin: 12px 12px;
+    text-align: center;
+}
+
+.capche{
+    width: 150px;
+    padding: 3px;
+    margin: 10px 20px;
+    border: 1px solid black;
+    background-color: darkgray;
+    text-align: center;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+
+}
+.flex{
+    display: flex;
+    gap: 1px
+}
+
+.user-capche-container{
+    width: 150px;
+    margin: 10px auto;
+}
+
+.user_code{
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+    margin: 10px auto;
+    border: 1px solid black;
+    background-color: white;
+    text-align: center;
+    border-radius: 12px;
+    
+}
+
+.btn{
+    width: 80px;
+    font-size: 16px;
+    margin: 10px 110px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.alert{
+    padding: 16px 30px;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    margin-top: 12px;
+    align-items: center;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 200px;
+    transition: .5s;
+    transform: scale(0);
+}
+
+.success{
+    transform: scale(1);
+    background-color: rgb(50, 146, 50);
+    color: white;
+}
+
+.danger{
+    transform: scale(1);
+    background-color: rgb(213, 45, 45);
+    color: white;
+}
